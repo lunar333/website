@@ -1,7 +1,14 @@
-site_name: mkdocks
+site_name: 语音克隆效果展示
 theme:
   name: material
   features:
-    - navigation.instant
-    - navigation.tracking
     - navigation.tabs
+    - navigation.tabs.sticky
+  icon:
+    repo: fontawesome/brands/git-alt
+    repo_url: https://github.com/lunar333/vits-japanese-finetune.git
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/lunar333/vits-japanese-finetune.git
